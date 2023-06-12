@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kramer Mwangala</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header" >
+        <div class="container col-sm-12">
+           <nav class="navbar">
+            <img src="./images/WhatsApp_Image_2023-06-10_at_09.49.11-removebg-preview.png" class="logo"   width="200">
+           
+            <ul id="sidemenu" >
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <!--<li><a href="#services">potfolio</a></li>-->
+                <li><a  href="#Contact">Contact</a></li>
+                <img src="./images/x.svg"onclick="closemenu();" class="kramer">
+            </ul>
+           
+            <img src="./images/list.svg"  onclick="openmenu();" class="kramer kramer593">
+           </nav>
+           <div class="header-text">
+             <p>WEB/SOFTWARE DEVELOPER</p>
+             <h1>Hey, I'm <span>Kramer </span>Located in Kenya</h1>
+           </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                <h2 class="subtitles">About Me</h2>
+                <p>Freelance web developer with a passion for creating innovative and user-friendly websites. I specialize in front-end development, with expertise in HTML, CSS, and JavaScript. I thrive on solving complex problems and delivering high-quality solutions that exceed client expectations.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab">
+                    <ul>
+                        <li><span>Web Dev</span><br>Html <br>Css <br>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Primary</span><br>I attended Midas Golden Acdemy from class 1 to class 4 then moved to muthaiga Primary School<br>
+                        </li>
+                        <li><span>Secondary</span><br>I attended Mudasa Academy through my Whole Secondary school and managed to score highly in my Kcse</li>
+                         <li><span>University</span><br> I am currently enrolled in KCA University currently undertaking a software engineering Degree i managed a GPA of 3.6 in the last semester</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                 <ul>
+                    <li><span>Experience</span><br>I have managed some experience through several Freelance  gigs and have heard good reviews</li>
+                 </ul>  
+                </div>
+            </div>
+                <div class="about-col-2">
+                    <img src="./images/me002.jpeg" alt="me">
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h2 class="subtitles">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <img src="./images/code-square.svg" id="webdevicon" width="30">
+                        <h3 id="webdev">Web development</h3>
+                        <p>As a freelance web developer, I offer comprehensive solutions to fulfill all your online presence requirements. With my expertise and experience, I specialize in crafting dynamic and captivating websites that are tailored specifically to your unique needs. By leveraging the latest cutting-edge technologies and incorporating creative design elements, I ensure a seamless and immersive user experience for your visitors.</p>
+                            <p class="more-content">My services cover the full spectrum of web development, encompassing both front-end and back-end development. With a keen focus on front-end, I excel at creating intuitive user interfaces that leave a lasting impression. On the back-end, I guarantee robust functionality by integrating databases and implementing server-side logic to power your website's operations.</p>
+                            <p class="more-content">Responsive web design is one of my core strengths, enabling your site to adapt flawlessly across various devices and screen sizes. Additionally, if you require an online store, I can provide e-commerce solutions that include secure payment gateways and efficient inventory management.</p>
+                            <p class="more-content">Throughout the development process, effective communication and collaboration are my top priorities. I work closely with you to fully understand your goals and deliver a product that exceeds your expectations. My commitment to quality and meticulous attention to detail ensure that the final website not only meets your requirements but also stands out from the competition.</p>
+                            <p class="more-content">As a freelance web developer, I offer customized solutions that integrate cutting-edge technologies and creative design, resulting in engaging websites that deliver an exceptional user experience.</p>
+                        
+                        
+                        
+                        <a href="#" class="read-more">Read More...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+   
+
+    <div id="Contact">
+        <div class="container" >
+          <div class="row">
+            <div class="contact-left" >
+              <h2 class="subtitles">Contact Me on</h2>
+              <p><a href="mailto:kramerkramer593@gmail.com" class="communication">kramerkramer593@gmail.com</a></p>
+              <p><a href="tel:+254715694260" class="communication">+254715694260</a></p>
+              
+              <div class="block-social md-bottom">
+    
+                <ul class="social-links">
+         
+                <li class="twitter"><a href="https://www.instagram.com/kr.amer480/"  target="_blank" data-toggle="tooltip" data-placement="top" rel="noopener noreferrer nofollow"><img src="./images/twitter.svg" height="60" alt="twitter"></a></li>
+                <li class="WhatsApp"><a href="https://wa.me/254715694260"  target="_blank" data-toggle="tooltip" data-placement="top" rel="noopener noreferrer nofollow"><img src="./images/whatsapp.svg" height="60" alt="whatsapp"></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/kr.amer480/" title="Instagram" target="_blank"><img src="./images/instagram.svg" alt="instagram" height="60"></a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/kramer-kramer-5a60b4268/" target="_blank" data-toggle="tooltip" data-placement="top" rel="noopener noreferrer nofollow" title="LinkedIn"><img src="./images/linkedin.svg" height="60" alt="linkedin"></a></li>
+                </ul>
+                </div>
+              <div>
+                <a href="./Kramer's Resume (2).pdf" download class="btn btn2" target="_blank">Download CV</a>
+              </div>
+            </div>
+            
+            <div class="contact-right" >
+              <form name="submit-to-google-sheet">
+                <h2>Feedback</h2>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your email: e.g johndoe123@example.com" required>
+                <textarea name="Message" rows="8" placeholder="Enter your Message/Feedback"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copywright">
+            <p>copywright &#169; KramerMwangala@2023</p>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script>
+        var sheetName = 'Sheet1'
+var scriptProp = PropertiesService.getScriptProperties()
+
+function intialSetup () {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+  scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+function doPost (e) {
+  var lock = LockService.getScriptLock()
+  lock.tryLock(10000)
+
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+    var sheet = doc.getSheetByName(sheetName)
+
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    var nextRow = sheet.getLastRow() + 1
+
+    var newRow = headers.map(function(header) {
+      return header === 'timestamp' ? new Date() : e.parameter[header]
+    })
+
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  catch (e) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  finally {
+    lock.releaseLock()
+  }
+} 
+  </script>
+ 
+<script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbzftXVHI2A2C9uePzlk-CD_VipqZVoyejat80oO6HXzAG4n2E_v0m_SOewODqOkuUEigA/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
